@@ -1,50 +1,47 @@
 package testCases;
 
-import java.time.Duration;
-
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.*;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import pageObjects.AccountRegistrationPage;
 import pageObjects.HomePage;
+import testBase.BaseClass;
 
-public class TC001_AccountRegistrationTest {
-	
-	public WebDriver driver;
+public class TC001_AccountRegistrationTest extends BaseClass {
 	
 	
-	@BeforeClass
-	public void setup()
-	{
-		driver = new ChromeDriver();
-		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get("https://tutorialsninja.com/demo/");		
-		driver.manage().window().maximize();
-		
-	}
 	
-	
-	@AfterClass
-	public void teardown()
-	{
-		driver.quit();
-	}
-	
-	@Test
+	@Test(priority=1)
 	public void verify_account_registration()
 	{
 		HomePage hp = new HomePage(driver);
+		
 		hp.clickMyAccount();
 		hp.clickRegister();
+		
+		System.out.println("registration page is opened....");
+		
+		/* driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); */
 		
 		AccountRegistrationPage regPage = new AccountRegistrationPage(driver);
 		
 		regPage.setFirstName(randomString().toUpperCase());
+		regPage.setLastName(randomString().toUpperCase());
+		regPage.setEmail(randomString() + "@gmail.com");
+		regPage.setTelephone(randomNumber());
 		
+		String password = randomAlphaNumeric();
 		
+		regPage.setPassword(password);
+		regPage.setConfirmPassword(password);
 		
+		regPage.clickPrivacyPolicy();
+		regPage.clickContinue();
+		
+		String confirmationMessage = regPage.getConfirmationMessage();
+		
+		Assert.assertEquals(confirmationMessage, "Your Account Has Been Created!");
 	}
-
+	
+	
 }

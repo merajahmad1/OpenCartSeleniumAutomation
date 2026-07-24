@@ -2,6 +2,7 @@ package pageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 
 public class AccountRegistrationPage extends BasePage{
@@ -13,8 +14,11 @@ public class AccountRegistrationPage extends BasePage{
 	
 	
 	
-	@FindBy(xpath="//input[@id='input-firstname']")
-	WebElement txtFirstName;
+	/*
+	 * @FindBy(xpath="//input[@id='input-firstname']") WebElement txtFirstName;
+	 */
+	
+	@FindBy(name="firstname")  @CacheLookup private WebElement txtFirstName;
 	
 		
 	@FindBy(xpath="//input[@id='input-lastname']")
@@ -40,6 +44,9 @@ public class AccountRegistrationPage extends BasePage{
 	@FindBy(xpath="//input[@value='Continue']")
 	WebElement btnContinue;
 	
+	
+	@FindBy(xpath="//h1[normalize-space()='Your Account Has Been Created!']")
+	WebElement msgConfirmation;
 	
 	public void setFirstName(String fname)
 	{
@@ -82,6 +89,16 @@ public class AccountRegistrationPage extends BasePage{
 	    btnContinue.click();
 	}
 	
+	public String getConfirmationMessage()
+	{
+		try {
+			return msgConfirmation.getText();			
+		}
+		catch(Exception e)
+		{
+			return e.getMessage();
+		}
+	}
 	
 
 }
