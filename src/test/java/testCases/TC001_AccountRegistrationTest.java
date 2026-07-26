@@ -14,16 +14,27 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 	@Test(priority=1)
 	public void verify_account_registration()
 	{
+		
+		
+		logger.info("********** Starting test case Execution *******************");
+		
+		try {
+		
 		HomePage hp = new HomePage(driver);
 		
 		hp.clickMyAccount();
+		
+		logger.info("***********clicked on my account link**************");
+		
 		hp.clickRegister();
 		
-		System.out.println("registration page is opened....");
+		logger.info("***********clicked on registration link**************");
 		
 		/* driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); */
 		
 		AccountRegistrationPage regPage = new AccountRegistrationPage(driver);
+		
+		logger.info("providing registration details");
 		
 		regPage.setFirstName(randomString().toUpperCase());
 		regPage.setLastName(randomString().toUpperCase());
@@ -41,7 +52,18 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 		String confirmationMessage = regPage.getConfirmationMessage();
 		
 		Assert.assertEquals(confirmationMessage, "Your Account Has Been Created!");
+			
 	}
 	
+	catch(Exception e)
+	{
+		logger.error("test is failed");
+		logger.debug("Debugs log....");
+		Assert.fail();
+	}
+		
+		logger.info("********** Starting test case Execution *******************");
+		
+	}
 	
 }

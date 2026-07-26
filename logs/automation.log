@@ -1,0 +1,25 @@
+18:11:13.258 [main] INFO  testCases.TC001_AccountRegistrationTest - ********** Starting test case Execution *******************
+18:11:13.671 [main] INFO  testCases.TC001_AccountRegistrationTest - ***********clicked on my account link**************
+18:11:14.533 [main] INFO  testCases.TC001_AccountRegistrationTest - ***********clicked on registration link**************
+18:11:14.595 [main] INFO  testCases.TC001_AccountRegistrationTest - providing registration details
+18:11:17.273 [main] INFO  testCases.TC001_AccountRegistrationTest - ********** Starting test case Execution *******************
+20:35:26.200 [main] INFO  testCases.TC001_AccountRegistrationTest - ********** Starting test case Execution *******************
+20:35:26.499 [main] INFO  testCases.TC001_AccountRegistrationTest - ***********clicked on my account link**************
+20:35:27.136 [main] INFO  testCases.TC001_AccountRegistrationTest - ***********clicked on registration link**************
+20:35:27.193 [main] INFO  testCases.TC001_AccountRegistrationTest - providing registration details
+20:36:48.600 [main] INFO  testCases.TC001_AccountRegistrationTest - ********** Starting test case Execution *******************
+20:36:48.721 [main] INFO  testCases.TC001_AccountRegistrationTest - ***********clicked on my account link**************
+20:36:49.292 [main] INFO  testCases.TC001_AccountRegistrationTest - ***********clicked on registration link**************
+20:36:49.326 [main] INFO  testCases.TC001_AccountRegistrationTest - providing registration details
+20:37:00.161 [main] ERROR testCases.TC001_AccountRegistrationTest - test is failed
+20:37:00.162 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debugs log....
+20:37:47.690 [main] INFO  testCases.TC001_AccountRegistrationTest - ********** Starting test case Execution *******************
+20:37:47.824 [main] INFO  testCases.TC001_AccountRegistrationTest - ***********clicked on my account link**************
+20:37:48.213 [main] INFO  testCases.TC001_AccountRegistrationTest - ***********clicked on registration link**************
+20:37:48.243 [main] INFO  testCases.TC001_AccountRegistrationTest - providing registration details
+20:37:50.500 [main] INFO  testCases.TC001_AccountRegistrationTest - ********** Starting test case Execution *******************
+20:39:08.471 [main] INFO  testCases.TC001_AccountRegistrationTest - ********** Starting test case Execution *******************
+20:39:08.761 [main] INFO  testCases.TC001_AccountRegistrationTest - ***********clicked on my account link**************
+20:39:09.228 [main] INFO  testCases.TC001_AccountRegistrationTest - ***********clicked on registration link**************
+20:39:09.235 [main] INFO  testCases.TC001_AccountRegistrationTest - providing registration details
+20:39:11.696 [main] INFO  testCases.TC001_AccountRegistrationTest - ********** Starting test case Execution *******************
