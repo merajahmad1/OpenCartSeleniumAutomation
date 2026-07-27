@@ -1,25 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-26T20:39:04 IST" name="Default suite" finished-at="2026-07-26T20:39:11 IST" duration-ms="7682">
+  <suite started-at="2026-07-28T01:42:40 IST" name="Suite" finished-at="2026-07-28T01:43:28 IST" duration-ms="47528">
     <groups>
     </groups>
-    <test started-at="2026-07-26T20:39:04 IST" name="Default test" finished-at="2026-07-26T20:39:11 IST" duration-ms="7682">
-      <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC001_AccountRegistrationTest@3b0090a4]" started-at="2026-07-26T20:39:04 IST" name="setup" finished-at="2026-07-26T20:39:08 IST" duration-ms="4086" status="PASS">
+    <test started-at="2026-07-28T01:42:40 IST" name="Test" finished-at="2026-07-28T01:43:28 IST" duration-ms="47528">
+      <class name="testCases.TC003_LoginDDT">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@7803bfd]" started-at="2026-07-28T01:42:40 IST" name="setup" finished-at="2026-07-28T01:42:47 IST" duration-ms="6688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:1, instance:testCases.TC001_AccountRegistrationTest@3b0090a4]" started-at="2026-07-26T20:39:08 IST" name="verify_account_registration" finished-at="2026-07-26T20:39:11 IST" duration-ms="3250" status="PASS">
+        <test-method signature="verifyLogin_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@7803bfd]" started-at="2026-07-28T01:42:49 IST" name="verifyLogin_DDT" data-provider="LoginData" finished-at="2026-07-28T01:42:51 IST" duration-ms="2445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ganoca5291@gwshare.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meraj@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@3b0090a4]" started-at="2026-07-26T20:39:11 IST" name="teardown" finished-at="2026-07-26T20:39:11 IST" duration-ms="291" status="PASS">
+        </test-method> <!-- verifyLogin_DDT -->
+        <test-method signature="verifyLogin_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@7803bfd]" started-at="2026-07-28T01:42:51 IST" name="verifyLogin_DDT" data-provider="LoginData" finished-at="2026-07-28T01:43:02 IST" duration-ms="10766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ganoca521@gwshare.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meraj@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin_DDT -->
+        <test-method signature="verifyLogin_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@7803bfd]" started-at="2026-07-28T01:43:02 IST" name="verifyLogin_DDT" data-provider="LoginData" finished-at="2026-07-28T01:43:13 IST" duration-ms="10680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ganoca5291@gwshare.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meraj@12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin_DDT -->
+        <test-method signature="verifyLogin_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@7803bfd]" started-at="2026-07-28T01:43:13 IST" name="verifyLogin_DDT" data-provider="LoginData" finished-at="2026-07-28T01:43:25 IST" duration-ms="11915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ganoca591@gwshare.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meraj@12333]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin_DDT -->
+        <test-method signature="verifyLogin_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@7803bfd]" started-at="2026-07-28T01:43:25 IST" name="verifyLogin_DDT" data-provider="LoginData" finished-at="2026-07-28T01:43:27 IST" duration-ms="2637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ganoca5291@gwshare.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meraj@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin_DDT -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC003_LoginDDT@7803bfd]" started-at="2026-07-28T01:43:27 IST" name="teardown" finished-at="2026-07-28T01:43:28 IST" duration-ms="370" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testCases.TC003_LoginDDT -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
