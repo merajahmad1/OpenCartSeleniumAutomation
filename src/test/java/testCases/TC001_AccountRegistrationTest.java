@@ -11,7 +11,7 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 	
 	
 	
-	@Test(priority=1)
+	@Test(groups = {"Regression", "Master"})
 	public void verify_account_registration()
 	{
 		
