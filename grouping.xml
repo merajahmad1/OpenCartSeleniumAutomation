@@ -13,6 +13,11 @@
 			<!--<exclude name=""/>-->
 		</run>
 	</groups>
+	
+	
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager"/>
+	</listeners>
 
 	<test thread-count="5" name="Test">
 
