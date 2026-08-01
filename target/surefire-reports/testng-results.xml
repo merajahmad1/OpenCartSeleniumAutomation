@@ -1,25 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-25T02:57:42 IST" name="Surefire suite" finished-at="2026-07-25T02:57:54 IST" duration-ms="11775">
+  <suite started-at="2026-08-01T21:09:33 IST" name="Suite" finished-at="2026-08-01T21:09:51 IST" duration-ms="18430">
     <groups>
+      <group name="Master">
+        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@54e7df6a]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC002_LoginTest.verifyLogin()[pri:0, instance:testCases.TC002_LoginTest@764faa6]" name="verifyLogin" class="testCases.TC002_LoginTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC002_LoginTest.verifyLogin()[pri:0, instance:testCases.TC002_LoginTest@764faa6]" name="verifyLogin" class="testCases.TC002_LoginTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@54e7df6a]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2026-07-25T02:57:42 IST" name="Surefire test" finished-at="2026-07-25T02:57:54 IST" duration-ms="11775">
-      <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC001_AccountRegistrationTest@b62fe6d]" started-at="2026-07-25T02:57:42 IST" name="setup" finished-at="2026-07-25T02:57:49 IST" duration-ms="6666" status="PASS">
+    <test started-at="2026-08-01T21:09:33 IST" name="Test" finished-at="2026-08-01T21:09:51 IST" duration-ms="18430">
+      <class name="testCases.TC002_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@764faa6]" started-at="2026-08-01T21:09:43 IST" name="setup" finished-at="2026-08-01T21:09:47 IST" duration-ms="4141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:1, instance:testCases.TC001_AccountRegistrationTest@b62fe6d]" started-at="2026-07-25T02:57:49 IST" name="verify_account_registration" finished-at="2026-07-25T02:57:54 IST" duration-ms="4800" status="PASS">
+        <test-method signature="verifyLogin()[pri:0, instance:testCases.TC002_LoginTest@764faa6]" started-at="2026-08-01T21:09:47 IST" name="verifyLogin" finished-at="2026-08-01T21:09:51 IST" duration-ms="3959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002_LoginTest@764faa6]" started-at="2026-08-01T21:09:51 IST" name="teardown" finished-at="2026-08-01T21:09:51 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC002_LoginTest -->
+      <class name="testCases.TC001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@54e7df6a]" started-at="2026-08-01T21:09:33 IST" name="setup" finished-at="2026-08-01T21:09:37 IST" duration-ms="3908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@54e7df6a]" started-at="2026-08-01T21:09:37 IST" name="verify_account_registration" finished-at="2026-08-01T21:09:42 IST" duration-ms="5431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@b62fe6d]" started-at="2026-07-25T02:57:54 IST" name="teardown" finished-at="2026-07-25T02:57:54 IST" duration-ms="229" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@54e7df6a]" started-at="2026-08-01T21:09:42 IST" name="teardown" finished-at="2026-08-01T21:09:43 IST" duration-ms="357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC001_AccountRegistrationTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

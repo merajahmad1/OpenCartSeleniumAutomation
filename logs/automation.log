@@ -598,3 +598,42 @@
 03:24:32.843 [TestNG-tests-2] DEBUG testCases.TC001_AccountRegistrationTest - Debugs log....
 03:24:43.027 [TestNG-tests-1] ERROR testCases.TC001_AccountRegistrationTest - test is failed
 03:24:43.027 [TestNG-tests-1] DEBUG testCases.TC001_AccountRegistrationTest - Debugs log....
+21:07:15.375 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\meahmad\eclipse-workspace\OpencartV121\master.xml"
+21:07:15.576 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\meahmad\eclipse-workspace\OpencartV121\master.xml"
+21:07:15.891 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\meahmad\eclipse-workspace\OpencartV121\master.xml
+
+21:07:24.560 [main] INFO  testCases.TC001_AccountRegistrationTest - ********** Starting test case Execution *******************
+21:07:24.832 [main] INFO  testCases.TC001_AccountRegistrationTest - ********** Starting test case Execution *******************
+21:07:25.128 [main] INFO  testCases.TC001_AccountRegistrationTest - ***********clicked on my account link**************
+21:07:25.337 [main] INFO  testCases.TC001_AccountRegistrationTest - ***********clicked on my account link**************
+21:07:26.031 [main] INFO  testCases.TC001_AccountRegistrationTest - ***********clicked on registration link**************
+21:07:26.092 [main] INFO  testCases.TC001_AccountRegistrationTest - providing registration details
+21:07:26.149 [main] INFO  testCases.TC001_AccountRegistrationTest - ***********clicked on registration link**************
+21:07:26.164 [main] INFO  testCases.TC001_AccountRegistrationTest - providing registration details
+21:07:31.048 [main] INFO  testCases.TC001_AccountRegistrationTest - ********** Starting test case Execution *******************
+21:07:31.061 [main] INFO  testCases.TC001_AccountRegistrationTest - ********** Starting test case Execution *******************
+21:07:36.139 [main] INFO  testCases.TC002_LoginTest - ***************Starting Login Test*************
+21:07:36.360 [main] INFO  testCases.TC002_LoginTest - ***************Starting Login Test*************
+21:07:40.716 [main] INFO  testCases.TC002_LoginTest - succefully logged in
+21:07:40.754 [main] INFO  testCases.TC002_LoginTest - succefully logged in
+21:07:40.795 [main] INFO  testCases.TC002_LoginTest - ***************finished Login Test*************
+21:07:40.809 [main] INFO  testCases.TC002_LoginTest - ***************finished Login Test*************
+21:08:19.620 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\meahmad\eclipse-workspace\OpencartV121\master.xml"
+21:08:23.629 [main] INFO  testCases.TC001_AccountRegistrationTest - ********** Starting test case Execution *******************
+21:08:23.784 [main] INFO  testCases.TC001_AccountRegistrationTest - ***********clicked on my account link**************
+21:08:24.262 [main] INFO  testCases.TC001_AccountRegistrationTest - ***********clicked on registration link**************
+21:08:24.272 [main] INFO  testCases.TC001_AccountRegistrationTest - providing registration details
+21:08:27.161 [main] INFO  testCases.TC001_AccountRegistrationTest - ********** Starting test case Execution *******************
+21:08:30.691 [main] INFO  testCases.TC002_LoginTest - ***************Starting Login Test*************
+21:08:33.032 [main] INFO  testCases.TC002_LoginTest - succefully logged in
+21:08:33.085 [main] INFO  testCases.TC002_LoginTest - ***************finished Login Test*************
+21:09:32.901 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\meahmad\eclipse-workspace\OpencartV121\master.xml"
+21:09:37.458 [main] INFO  testCases.TC001_AccountRegistrationTest - ********** Starting test case Execution *******************
+21:09:37.905 [main] INFO  testCases.TC001_AccountRegistrationTest - ***********clicked on my account link**************
+21:09:38.934 [main] INFO  testCases.TC001_AccountRegistrationTest - ***********clicked on registration link**************
+21:09:38.973 [main] INFO  testCases.TC001_AccountRegistrationTest - providing registration details
+21:09:42.880 [main] INFO  testCases.TC001_AccountRegistrationTest - ********** Starting test case Execution *******************
+21:09:47.412 [main] INFO  testCases.TC002_LoginTest - ***************Starting Login Test*************
+21:09:51.294 [main] INFO  testCases.TC002_LoginTest - succefully logged in
+21:09:51.371 [main] INFO  testCases.TC002_LoginTest - ***************finished Login Test*************
