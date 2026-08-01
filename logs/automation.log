@@ -637,3 +637,21 @@
 21:09:47.412 [main] INFO  testCases.TC002_LoginTest - ***************Starting Login Test*************
 21:09:51.294 [main] INFO  testCases.TC002_LoginTest - succefully logged in
 21:09:51.371 [main] INFO  testCases.TC002_LoginTest - ***************finished Login Test*************
+21:18:08.978 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\meahmad\eclipse-workspace\OpencartV121\master.xml"
+21:18:17.413 [main] INFO  testCases.TC001_AccountRegistrationTest - ********** Starting test case Execution *******************
+21:18:18.743 [main] INFO  testCases.TC001_AccountRegistrationTest - ***********clicked on my account link**************
+21:18:19.980 [main] INFO  testCases.TC001_AccountRegistrationTest - ***********clicked on registration link**************
+21:18:20.040 [main] INFO  testCases.TC001_AccountRegistrationTest - providing registration details
+21:18:24.128 [main] INFO  testCases.TC001_AccountRegistrationTest - ********** Starting test case Execution *******************
+21:18:29.393 [main] INFO  testCases.TC002_LoginTest - ***************Starting Login Test*************
+21:18:32.292 [main] INFO  testCases.TC002_LoginTest - succefully logged in
+21:18:32.389 [main] INFO  testCases.TC002_LoginTest - ***************finished Login Test*************
+21:27:18.816 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\meahmad\eclipse-workspace\OpencartV121\master.xml"
+21:27:33.052 [main] INFO  testCases.TC001_AccountRegistrationTest - ********** Starting test case Execution *******************
+21:27:33.659 [main] INFO  testCases.TC001_AccountRegistrationTest - ***********clicked on my account link**************
+21:27:34.787 [main] INFO  testCases.TC001_AccountRegistrationTest - ***********clicked on registration link**************
+21:27:34.803 [main] INFO  testCases.TC001_AccountRegistrationTest - providing registration details
+21:27:39.779 [main] INFO  testCases.TC001_AccountRegistrationTest - ********** Starting test case Execution *******************
+21:27:48.024 [main] INFO  testCases.TC002_LoginTest - ***************Starting Login Test*************
+21:27:51.468 [main] INFO  testCases.TC002_LoginTest - succefully logged in
+21:27:51.540 [main] INFO  testCases.TC002_LoginTest - ***************finished Login Test*************
