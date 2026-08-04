@@ -5,9 +5,9 @@
 
 <suite name="Suite">
 
-	<listeners>
+	<!--<listeners>
 		<listener class-name="utilities.ExtentReportManager"/>
-	</listeners>
+	</listeners>-->
 	<test thread-count="5" name="Test">
 
 		<parameter name="os" value="Windows" />
